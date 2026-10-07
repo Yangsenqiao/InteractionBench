@@ -1,0 +1,31 @@
+{
+  "data": "data/interactionbench",
+  "model": "mage-vl",
+  "model_path": null,
+  "model_args": {},
+  "protocol": "sliding",
+  "protocol_config": {
+    "interval": 1.0,
+    "a_window": 10.0,
+    "max_frames": 16,
+    "max_new_per_turn": 8,
+    "max_new_tokens": 96,
+    "hint_set": "default",
+    "blind": false,
+    "verbose": false,
+    "extra": {}
+  },
+  "sample_fps": 2.0,
+  "max_long_side": 512,
+  "mcq": "data/interactionbench/mcq/mcq_options_v4.jsonl",
+  "video_dir": null,
+  "items": "benchmark/splits/all1060.txt",
+  "videos": null,
+  "capabilities": null,
+  "limit": 0,
+  "num_shards": 8,
+  "shard_index": 0,
+  "out": "results/runs/mage-vl-sliding-all1060/shards/0",
+  "overwrite": false,
+  "skip_oom": true
+}

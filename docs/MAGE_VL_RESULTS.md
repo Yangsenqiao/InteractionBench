@@ -68,6 +68,10 @@ results/runs/mage-vl-sliding-all1060/
   shards/{0..7}/preds.jsonl
 ```
 
+The complete merged predictions, per-item evaluation records, summaries, run config,
+and SHA-256 checksums are available in
+[`artifacts/mage-vl-sliding-all1060`](../artifacts/mage-vl-sliding-all1060/).
+
 ## Scope
 
 This is an apples-to-apples InteractionBench evaluation through its generic
